@@ -1,0 +1,24 @@
+id ICON "data/icon.ico"
+IDR_RT_MANIFEST1	RT_MANIFEST 	"data/csprite.exe.manifest"
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  __PRODUCT_VERSION1__
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "FileDescription", "A tiny pixel art tool"
+      VALUE "InternalName", "csprite"
+      VALUE "LegalCopyright", "Aditya Mishra"
+      VALUE "OriginalFilename", "csprite.exe"
+      VALUE "ProductName", "csprite"
+      VALUE "ProductVersion", "__PRODUCT_VERSION2__"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END
+
